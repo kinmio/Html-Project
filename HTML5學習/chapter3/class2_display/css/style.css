@@ -1,0 +1,14 @@
+a{
+	display: block;/*區塊元素*/
+	height: 50px;
+	width: 100px;
+}
+
+li{
+	display: inline;
+}
+
+.style1{
+
+	display: block;
+}

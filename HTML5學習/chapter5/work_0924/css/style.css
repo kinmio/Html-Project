@@ -1,0 +1,160 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
+  }
+
+body{
+	background: #3399FF;
+}
+
+.wrap{
+	width:1000px;
+	margin: 0 auto;
+	padding-top: 200px;
+	font-family: 微軟正黑體;
+}
+
+.headline1{
+	width: 100px;
+	float: left;
+}
+
+.headline1 h2{
+	writing-mode: vertical-lr;
+	font-size: 100px;
+	font-weight: bold;
+	color: #000066;
+}
+
+.headline2{
+	width: 80px;
+	float: left;
+	margin-right: 20px;
+}
+
+.headline2 h3{
+	writing-mode: vertical-lr;/*文字從左至右垂直*/
+	text-orientation: upright;/*文字轉向*/
+	font-size: 40px;
+	font-weight: bold;
+	color: #000066
+
+}
+
+.card{
+	background: white;
+	border-radius: 25px;/*圓角設定*/
+	width: 800px;
+	height: 500px;
+	float: left;
+	padding: 40px;
+	position: relative;
+	overflow: hidden;/*圖片防止溢出*/
+	
+}
+
+.card img{
+	width: 30%;
+	height: 15%;
+	margin-bottom: 30px;
+}
+
+.card h3{
+	font-size: 50px;
+	font-weight: bold;
+	color: #0044BB;
+	margin-bottom: 30px;
+}
+
+.card h2{
+	font-size: 60px;
+	padding-left: 90px;
+	color: #000066;
+	margin-bottom: 100px;
+	
+}
+
+.card li, a{
+	font-size: 25px;
+	color: #0044BB;
+	text-decoration: none;
+	font-weight: bold;
+	
+}
+
+.box1, .box2, .box3{
+	position: absolute;
+}
+
+.box1{
+	width:40%;
+    height:54%;
+    background:#3030FF;
+	clip-path:polygon(25% 0%, 75% 0%,100% 50%,75% 100%,25% 100%,0% 50%);
+    top:-50px;
+	right:-120px;
+}
+
+.box2{
+	width:35%;
+    height:45%;
+    background:#0000EB;
+	clip-path:polygon(25% 0%, 75% 0%,100% 50%,75% 100%,25% 100%,0% 50%);
+    bottom:40px;
+	right:-90px;
+}
+
+.box3{
+	width:25%;
+    height:35%;
+    background:#4545FF;
+	clip-path:polygon(25% 0%, 75% 0%,100% 50%,75% 100%,25% 100%,0% 50%);
+    bottom:180px;
+	right:140px;
+}
+

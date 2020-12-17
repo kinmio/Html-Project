@@ -1,0 +1,38 @@
+h1{
+    color: blue;
+    font-size: 99px;
+    text-decoration: underline;/*定義文字特效:底線、刪除線等 */
+    border: 5px solid black;/*定義全邊框、solid定義實心線*/
+}
+
+img{
+    border-left: 5px solid #000;/*定義單邊框*/
+}
+
+p{
+    font-family: Arial;/*定義字形樣式 */
+    font-size: 24px;/*定義字形大小 */
+    line-height: 1.5;/*定義字形行距 */
+    text-align: left;/*定義字形位置 */
+    text-indent: 36px;/*定義字形縮排 */
+    
+
+}
+/*特殊指定class的樣式，需class先定義加上"." */
+.style1{
+    color: brown;
+}
+
+a{
+    font-size: 99px;
+    border-bottom: 50px solid cornflowerblue;
+}
+/*hover滑鼠指針移動在連結上的樣式，需加上":" */
+a:hover{
+    color: gray;
+    border-bottom: 100PX solid red;
+}
+/*active被點擊連結的樣式*/
+a:active{
+    color: darkgoldenrod;
+}

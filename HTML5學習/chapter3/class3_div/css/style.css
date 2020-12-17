@@ -1,0 +1,12 @@
+
+.style1 {
+	color: purple;
+}
+
+.style1 h2 span{
+	font-size: 50px;
+}
+
+.style2 h2{ /*可指定標籤做CSS樣式設計*/
+	color: royalblue;
+}

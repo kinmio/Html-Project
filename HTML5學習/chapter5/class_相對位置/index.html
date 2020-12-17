@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>相對位置與絕對位置應用</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <h1>position絕對位置應用</h1>
+        <ul>
+            <li>相較float，更加活用</li>
+            <li>利用position css語法去下參數，參數分為以下幾種</li>
+          <li>絕對定位可以讓元素與元素之間重疊再一起</li>
+        </ul>
+        <div class="wrap">
+            <div class=box><p>
+                1.static：屬性默認值為:static，即該元素出現在文檔的常規位置，不會重新定位。通常此屬性值可以不設置，除非是要覆蓋之前的定義。
+            </p></div>
+            <div class="box2">
+                <p>2.relative：表現的和 static 一樣，除非你增加了一些額外的屬性。他是相對定位</p>
+            </div>
+            <div class="box2-2">
+                <p>在元素內設定 top 、 right 、 bottom 和 left 屬性，會使其元素「相對地」調整其原本該出現的所在位置，而不管這些「相對定位」過的元素如何在頁面上移動位置或增加了多少空間，都不會影響到原本其他元素所在的位置。</p>
+            </div>
+            <div class="box3">
+                <p>4.fixed：元素會相對於瀏覽器視窗來定位，這意味著即便頁面捲動，它還是會固定在相同的位置。</p>
+            </div>
+            <div class="box4">
+                <p>3.absolute:絕對定位，便可以將元素放在文檔中任何想放的位置。</p>
+                <p>將div class="box4"設置成relative為相對位置作為中心點，可在box4內做絕對位置的參數設定</p>
+                <div class="box4-4"></div>
+            </div>
+        </div>
+    </body>
+</html>
