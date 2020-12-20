@@ -1,2 +1,1 @@
-# Practicing Git
-#2nd
+# 六角學院的練習內容與複習
