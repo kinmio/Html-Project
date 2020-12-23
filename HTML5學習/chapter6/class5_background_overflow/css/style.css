@@ -46,7 +46,7 @@ table {
 	float: left;
 }
 
-.header h1 a{
+.logo h1 a{
 	width: 174px;
 	height: 50px;
 	background-image: url(../img/images/logo.png);
