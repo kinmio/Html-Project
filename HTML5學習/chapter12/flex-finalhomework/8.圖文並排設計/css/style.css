@@ -57,9 +57,16 @@ table {
   justify-content: space-between;
 }
 
+.post{
+ display:flex;
+ align-items: center;
+ justify-content: center;
+}
+
 .post p{
   color: white;
   font-size: 18px;
-  padding:180px 50px 170px 30px ;
+  padding:50px;
+  line-height: 25px;
 }
 

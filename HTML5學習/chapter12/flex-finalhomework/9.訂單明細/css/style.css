@@ -56,6 +56,7 @@ table {
 
 .head {
   background: #e7eeea;
+  margin-top: 20px;
 }
 
 .head h2{
@@ -66,9 +67,52 @@ table {
   padding: 25px 0 30px 0;
 }
 
-table{
+.item{
+  display: flex;
+  justify-content: space-between;
+  color:#829886;
+}
+
+.item span{
+  font-size: 20px;
+  padding: 10px;
+}
+
+.item p{
+  font-size: 28px;
+  font-weight:bold;
+  padding: 10px;
+}
+
+.item2{
+  display: flex;
+  justify-content: space-between;
+  color:#829886;
+  padding: 10px;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info h3{
+  font-size: 20px;
+}
+
+.info p{
+  font-size: 24px;
+  font-weight:bold;
+}
+
+.list{
+  border:1px solid #e7eeea;
+}
+
+/**table,.head,ul{
   width: 300px;
-  
+  border:1px solid #e7eeea;
 }
 
 td{
@@ -108,5 +152,5 @@ td,th{
 .money2{
   font-weight: bold;
   font-size:28px;
-}
+}**/
 
