@@ -54,3 +54,12 @@ li{
     font-family: '微軟正黑體';
     font-weight: bold;
 }
+
+input{
+  cursor: pointer;
+}
+
+input:hover{
+  background: lightgreen;
+}
+
