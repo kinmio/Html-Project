@@ -41,3 +41,20 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+
+.wrap{
+  margin: 0 auto;
+  width: 500px;
+}
+
+h1{
+  font-size: 24px;
+}
+
+h2{
+  width: 500px;
+  border: 1px solid lightgray;
+  margin-bottom: 50px;
+  padding: 10px;
+}
