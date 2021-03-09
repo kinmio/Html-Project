@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>lightbox與swiper整合應用</title>
+  <link rel="stylesheet" href="css/style.css"><!---->
+  <link rel="stylesheet" href="css/lightbox.min.css"><!---->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" /><!---->
+</head>
+<body>
+  <div class="wrap">
+    <!-- Slider main container -->
+    <div class="swiper-container">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- 圖片項目 -->
+        <div class="swiper-slide"><img src="images/up.jpg" width="100%"></div>
+        <div class="swiper-slide"><img src="images/walle.jpg" width="100%"></div>
+        <div class="swiper-slide"><img src="images/toystory.jpg" width="100%"></div>
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+      <!--投影片效果-->
+    </div>
+    <div class="content">
+      <div class="cart">
+        <ul class='single'>
+          <li>
+            <a href="images/thumb-1.jpg" data-lightbox='image-1'><img src="images/thumb-1.jpg" alt="images-1"></a>
+          </li>
+          <li>
+            <a href="images/thumb-2.jpg" data-lightbox='image-2'><img src="images/thumb-2.jpg" alt="images-2"></a>
+          </li>
+          <li>
+            <a href="images/thumb-3.jpg" data-lightbox="image-3"><img src="images/thumb-3.jpg" alt="image-3"></a>
+          </li>
+        </ul>
+        <ul class="set">
+          <li>
+            <a href="images/thumb-4.jpg" data-lightbox="image-set"><img src="images/thumb-4.jpg" alt="image-set"></a>
+          </li>
+          <li>
+            <a href="images/thumb-5.jpg" data-lightbox="image-set"><img src="images/thumb-5.jpg" alt="image-set"></a>
+          </li>
+          <li>
+            <a href="images/thumb-6.jpg" data-lightbox="image-set"><img src="images/thumb-6.jpg" alt="image-set"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <script src='js/jquery-3.5.1.min.js'></script>
+  <script src="js/lightbox-plus-jquery.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/all.js"></script>
+</body>
+</html>
