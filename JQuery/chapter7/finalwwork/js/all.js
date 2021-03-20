@@ -34,7 +34,12 @@ $(document).ready(function () {
         scrollbar: {
           el: '.swiper-scrollbar',
         },
+
+        autoplay: {
+          delay: 3000,
+          stopOnLastSlide: false,
+          disableOnInteraction: true,
+        },
       }); 
 
-      
 });
