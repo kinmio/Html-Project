@@ -1,0 +1,102 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrap{
+  width: 500px;
+  margin: 0 auto; 
+}
+
+.header{
+  background: lightblue;
+}
+
+.menu{
+  display:flex;
+  justify-content: flex-end;
+}
+
+.menu a {
+  text-decoration: none;
+  display:block;
+  background: white;
+  color:darkgreen;
+  padding: 30px;
+  border: 1px solid lightgray;
+  transition: all 1s;
+  text-align: center;
+}
+
+
+.menu a:hover ,a.active{
+  background: cornflowerblue;
+  color: white;
+}
+
+
+.menu ul{ /*將第二層ul隱藏起來*/
+  display:none;
+}
+
+/*.menu  li:hover ul{ /*當滑鼠移過去的時候 ul會展開
+  display:block;
+}*/
+
+.button{/*第二層底下li的絕對定位*/
+  position: relative;
+}
+
+.dropdown-open{
+  position:absolute;
+}
+
+.box{
+  background: yellowgreen;
+  height: 500px;
+}

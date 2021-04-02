@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>flex的技巧應用</title>
+</head>
+<body>
+    <div class="wrap">
+        <h1>FLEX特性應用(上)</h1>
+        <ul>
+          <li>外層容器:container，內層容器:item</li>
+          <li>display:flex設置在container底下</li>
+          <li>在flex父層底下的item寬度會自動調節，高度則取最高的統一高度</li>
+          <li>class名稱是可以多個的，且css樣式都會讀取到</li>
+        </ul>
+        <div class="container">
+          <div class="item">1</div>
+          <div class="item">2</div>
+          <div class="item">3</div>
+          <div class="item">4</div>
+        </div>  
+        <h1>特性應用(下)</h1>
+        <div class="container2">
+          <div class="item2 itema">1</div>
+          <div class="item2 itemb">2</div>
+          <div class="item2 itemc">3</div>
+        </div>
+      </div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=">
+  <link rel="stylesheet" href="css/style.css">
+  <title>form練習</title>
+</head>
+<body>
+  <H1>表格練習</H1>
+  <p>利用form語法設計表單，表單之內容會透過表單抓取前端資料</p>
+  <ul>
+    <li>action:用來指定一個位址 (URL)，這個位址是告訴瀏覽器 (browser) 當 user 按送出表單後，要將表格的內容送去哪邊</li>
+    <li>type="txet">定義為文字</li>
+    <li>type="password"> 建立一個密碼文字輸入欄位，和 text 的差別是，使用者輸入的內容不會被明碼顯示在螢幕畫面中</li>
+    <li>type="checkbox"> 建立一個多選核取方塊</li>
+    <li>type="radio"> 建立一個單選選項按鈕</li>
+    <li>type="submit"> 建立一個送出表單的按鈕</li>
+    <li>部分 type 都可以再搭配上 value 屬性，指定一個預設值。像是 type="text" 搭配 value= 指定輸入框中的預填文字。</li>
+  </ul>
+<h1>進階用法</h1>
+  <ul>
+    <li>placeholder:該屬性可在文字框中顯示提示訊息</li>
+    <li>label:給表單的控制元件一個說明標題，通常for會對應id，而id的命名會與name一樣。</li>
+  </ul>
+  <form action="index.html">
+    <label for="mail">電子郵件:</label>
+    <input type="text" id="mail" placeholder="請輸入mail" name="mail">
+    <label for="password">密碼:</label>
+    <input type="password" id="password" placeholder="請輸入密碼" name="password">
+    <input type="submit" value="送出">
+  </form>
+  <form action="index.hmtl">
+    <h2>性別</h2>
+    <input type="radio" name="sex" value="male">男性
+    <input type="radio" name="sex" value="fmale">女性
+    <h2>興趣</h2>
+    <input type="checkbox" name="hobby"value="movie">看電影
+    <input type="checkbox" name="hobby"value="music">聽音樂
+    <input type="checkbox" name="hobby"value="comic">看漫畫
+    <br>
+    <input type="submit" value="送出">
+  </form>
+</body>
+</html>

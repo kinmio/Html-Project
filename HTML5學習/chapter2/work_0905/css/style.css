@@ -1,0 +1,36 @@
+h1{
+    color: blue;
+}
+
+.style1{
+    text-indent: 36px;
+}
+
+h2{
+    border-bottom: 5px solid red;
+    border-left: 5px solid red;
+}
+
+li{
+    line-height: 3;
+}
+
+.style2{
+    text-decoration: line-through;
+}
+
+a{
+    color: red;
+}
+
+a:hover{
+    color: blue;
+}
+
+img{
+    border: 5px solid gray;
+}
+
+img:hover{
+    border: 5px solid plum;
+}

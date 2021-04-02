@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>圖片取代文字</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h2>圖片取代文字</h2>
+    <p>
+        目的：在搜尋引擎上會針對圖片與H1的資料分析，透過這做法就不會讓網站在被搜尋到的時候找不到H1的標題資料
+    </p>
+    <ul>
+        <li>因為a連結是span，需要先將其元素display:block</li>
+        <li>可利用text-indent進行首行縮排縮超出圖片</li>
+        <li>white-space: nowrap文本不会换行，文本会在在同一行上继续，直到遇到 "br" 标签为止。</li>
+        <li>overflow: hidden;溢出範圍的隱藏</li>
+    </ul>
+    <div class="header">
+        <h1>
+            <a href="#">首頁</a>
+        </h1>
+    </div>
+</body>
+</html>

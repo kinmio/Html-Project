@@ -1,0 +1,83 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol{
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.wrap{
+  width: 100%;
+  position:relative;
+}
+
+.aside{
+  position:absolute;
+  background: yellow;
+  width: 270px;
+  height: 300px;
+  top: 0;
+  bottom: 0;
+  transform: translateX(-270px);/*此語法可以讓元素平移、旋轉、縮放和傾斜*/
+  transition: 1s ease;/*CSS動畫語法*/
+}
+
+.header{
+  background:red;
+  height: 50px;
+}
+
+.content{
+  background: black;
+  height: 250px;
+}
+
+.open .container{
+  transform: translateX(270px);
+}
+
+.open{
+  transform: translateX(0px);
+}
+
+.container p{
+  font-size:40px;
+  color:white;
+  text-align:center;
+}

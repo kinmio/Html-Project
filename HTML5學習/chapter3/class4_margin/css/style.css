@@ -1,0 +1,9 @@
+.box{
+	border:10px solid black ;
+	padding-left:30px;/*推擠行內*/
+	padding-right: 30px;
+}
+
+.box p {
+	margin-bottom: 50px;/*推擠外邊界*/
+}

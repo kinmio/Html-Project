@@ -1,0 +1,311 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
+  }
+
+.wrap{
+	margin: 0 auto;
+	width: 1000px;
+	font-family: "微軟正黑體";
+}
+
+.topbar{
+	display: flex;
+	flex-direction: row-reverse;
+	padding: 10px;
+	background: #f6f6f6;
+}
+
+.topbar ul{
+	display: flex;
+}
+
+.topbar a{
+	text-decoration: none;
+}
+
+.fb a{
+	color: #496094;
+	padding-right: 5px;
+	border-right: 1px solid gray;
+}
+
+.fb a:hover{
+	color:white;
+	background: #496094;
+}
+
+.tw img{
+	margin-left:10px;	
+}
+
+.tw a{
+	color: #00a9f6;
+}
+
+.tw a:hover{
+	color: white;
+	background: #00a9f6;
+}
+
+.header{
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo a{
+	display: block;
+	text-decoration: none;
+	background: url(../images/img-html/logo.png);
+	width: 224px;
+	height: 50px;
+	text-indent: 100%; /*首行縮排強制超出圖片範圍*/
+	white-space: nowrap;/*強制不斷行*/
+	overflow: hidden;
+}
+
+.menu{
+	display:flex;
+}
+
+.menu li>a{
+	text-decoration: none;
+	display: block;
+	font-size:18px;
+	color: #1baa84;
+	padding: 20px 10px 20px 10px;
+	width:110px;
+	text-align: center;
+}
+
+.menu>li>a:hover, .menu li>a.active{
+	border-bottom: 5px solid #1baa84;
+}
+
+.menu li {
+	position: relative; /*在父元素下絕對定位*/
+}
+
+.menu li>ul{
+	display: none;
+	z-index: 2; /*改的*/
+	position: absolute;
+  	top:62px;
+}
+
+.menu>li>ul>li>a{
+	background: white;
+}
+
+.menu>li>ul>li>a:hover{
+	color: white;
+	background: #1baa84;
+}
+
+.swiper-container {
+	width: 1000px;
+	height: 364px;
+  }
+
+.course{
+	display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.course-item{
+	width: 300px;
+	border: 1px solid lightgray;/*外框線*/
+	box-shadow:2px 2px 5px lightgray;/*陰影*/
+	border-radius: 5px;/*圓角角度*/
+	padding: 30px 10px 20px 10px;
+}
+
+.course-logo,.course-item h2{
+	text-align: center;
+	font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.course-item p{
+	color:black;
+	font-size: 20px;
+    line-height: 25px;
+    text-align: justify;
+    padding: 10px;
+}
+
+.course-item li{
+    margin-left: 40px;
+    list-style: disc;
+    height: 25px;
+}
+
+.course-rwd{
+	padding-top:70px ;
+}
+
+.form{
+	margin: 50px 30px 60px 30px ;
+}
+
+.form h2{
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.form table{
+	margin-left: 30px;
+}
+
+.form th{
+	font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+    border-top:1px solid lightgray;
+	background: #f7f7f7;
+}
+
+.form th,td{
+	text-align: left;
+	border-bottom: 1px solid lightgray;
+	padding:10px  70px 10px 30px;
+}
+
+.col{
+	color:#5fb19a;
+}
+
+.connection{
+	background: url(../images/img-html/green.png);
+	background-repeat: repeat-x;
+}
+
+.connection form{
+	display:flex;
+	justify-content: space-between;
+	padding-bottom: 30px;
+	margin-top: 20px;
+	position: relative;
+}
+
+.connection h2{
+	padding-top:30px ;
+}
+
+.connection h2,p{
+	color: white;
+    font-size: 25px;
+    text-align: center;
+	margin-bottom: 10px;
+}
+
+.connection textarea{
+	border: none;
+	border-radius: 5px;
+	margin-left: 30px;
+}
+
+.info{
+	margin-right: 30px;
+}
+
+.info label{
+	color: white;
+}
+
+.info input{
+	border: none;
+	border-radius: 5px;
+	width: 430px;
+    height: 30px;
+	margin: 10px 0 10px 0;
+}
+
+.button input{
+	width: 80px;
+    height: 30px;
+    background: #00cc99;
+    color: white;
+    cursor: pointer;
+	position: absolute;
+	right: 30px;
+}
+
+.button input:hover{
+    color: #00cc99;
+	background: white;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #e12d80;
+}
+
+.top a{
+	text-decoration: none;
+	font-size: 80px;
+	display: block;
+	color: #00cc99;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+}
+
+.top a:hover{
+	color:greenyellow;
+}

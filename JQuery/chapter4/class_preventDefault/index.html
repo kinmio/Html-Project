@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> preventDefault()事件用法</title>
+    <script src='js/jquery-3.5.1.min.js'></script><!--載入jQuery檔案用-->
+    <script src='js/all.js'></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>preventDefault()事件用法</h1>
+    <p>$('.close').click(function (e) { <br>
+        e.preventDefault();<br>
+    });</p>
+
+    <ul>
+        <li>e=event:事件</li>
+        <li>preventDefault():取消預設的事件功能</li>
+    </ul>
+    <h1>動態增加css語法</h1>
+    <ul>
+        <li>$('.box2').css('css語法'):style權重會大於原本選擇器的權重</li>
+    </ul>
+    <a class='close' href="https://www.google.com.tw/">連結</a>
+    <div class="box"></div>
+    <div class="box2"></div>
+</body>
+</html>

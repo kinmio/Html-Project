@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>下拉式選單menu作法</title>
+    <script src='js/jquery-3.5.1.min.js'></script><!--載入jQuery檔案用-->
+    <script src='js/all.js'></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="wrap">
+    <div class="header">
+        <ul class="menu">
+            <li><a href="#">首頁</a></li>
+            <li><a href="#">產品專區</a></li>
+            <li class="button">
+                <a class='dropdown' href="#">訂單查詢</a>
+                <ul class="dropdown-open">
+                    <li><a href="#">出貨進度</a></li>
+                    <li><a href="#">退貨申請</a></li>
+                    <li><a href="#">退換申請</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="box"></div>
+</div>
+</body>
+</html>

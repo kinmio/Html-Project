@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=">
+  <link rel="stylesheet" href="css/style.css">
+  <title>select、textarea應用</title>
+</head>
+<body>
+  <h1>select、textarea應用</h1>
+  <ul>
+    <li>select是用來宣告一個下拉式選單，標籤裡面還會有 option 標籤用來宣告有哪些選項。</li>
+    <li>textarea是用來建立一個可以輸入多行文字的輸入框</li>
+  </ul>
+  <form action="index.html">
+    <label for="birth">生日:</label>
+    <select name="birth" id="birth">
+      <option value="1900">1900</option>
+      <option value="1901">1901</option>
+    </select>
+    <h2>內容:</h2>
+    <br>
+    <textarea name="content" cols="30" rows="30"></textarea>
+    <br>
+    <input type="submit" value="送出">
+  </form>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>clear清除浮動練習</title>
+        <link rel="stylesheet" href="css/style.css">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <p>clear清除浮動練習</p>
+        <ul>
+            <li>主要是清除float浮動，如果未清除的話區塊會往上跑</li>
+            <li>主要在float底下，去寫clear語法</li>
+            <li>clear函數有both、left、right</li>
+            <li>如果設計區塊的時候有使用border，但又不想計算px，可使box-size解決問題</li>
+            <li>不建議把content中間區塊高度寫死</li>
+        </ul>
+        <div class='wrap'>
+            <div class='header'>header</div>
+            <div class="main">
+                <div class="menu">menu</div>
+                <div class='content'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit porro, eos aliquam alias nihil obcaecati asperiores! Iure earum maiores facilis pariatur id sunt ipsam illum nulla fugiat praesentium? Suscipit, nobis.</div>
+                <div class="list">list</div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="footer">footer</div>
+        </div>
+    </body>
+</html>
